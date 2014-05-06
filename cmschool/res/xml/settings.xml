@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="로그인 정보"
+        android:title="자동 로그인을 위한 로그인 아이디와 비밀번호를 확인 후 저장합니다.\n자동로그인을 해제하려면 비밀번호를 삭제하십시오." >
+        <EditTextPreference
+            android:key="uid"
+            android:summary="아이디를 입력하십시오."
+            android:title="아이디" />
+        <EditTextPreference
+            android:key="pwd"
+            android:summary="비밀번호를 입력하십시오."
+            android:title="비밀번호" />
+        
+        <Preference  android:defaultValue="false"
+            android:key="login"
+            android:summary="로그인이 성공되면 다음부터는 자동로그인 합니다."
+            android:title="Login" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

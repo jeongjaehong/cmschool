@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">청명초등학교</string>
+    <string name="notice_button">공지사항</string>
+    <string name="alarm_button">알림장</string>
+    <string name="week_button">주간학습</string>
+    <string name="letter_button">징검다리</string>
+    <string name="album_button">앨범</string>
+    
+    <string name="menu_notice">공지사항</string>
+    <string name="menu_alarm">알림장</string>
+    <string name="menu_week">주간학습</string>
+    <string name="menu_letter">징검다리</string>
+    <string name="menu_album">앨범</string>
+    <string name="menu_login">로그인</string>
+    
+    <string name="dummy_content"></string>
+
+</resources>
